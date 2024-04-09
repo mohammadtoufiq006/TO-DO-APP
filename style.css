@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    background-color: white;
+    width: 70%;
+    min-height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 30px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+button:hover{
+    background-color: rgb(61, 9, 156);
+}
+input,
+textarea,
+button{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font: 100 1.1rem sans-serif;
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.task{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 2vmax;
+    font: 100 1.1rem sans-serif;
+    color: rgba(0, 0, 0, 0.86);
+}
+.task>div{
+    width: 100%;
+}
+
+.task span{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.dltbtn{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}
